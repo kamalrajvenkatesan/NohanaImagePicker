@@ -27,8 +27,8 @@ class AssetCell: UICollectionViewCell {
     override func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         if let nohanaImagePickerController = nohanaImagePickerController {
-            let droppedImage: UIImage? = nohanaImagePickerController.config.image.droppedSmall ?? UIImage(named: "select_m")
-            let pickedImage: UIImage? = nohanaImagePickerController.config.image.pickedSmall ?? UIImage(named: "selected_m")
+            let droppedImage: UIImage? = nohanaImagePickerController.config.image.droppedSmall ?? UIImage(named: "select_m_nohana")
+            let pickedImage: UIImage? = nohanaImagePickerController.config.image.pickedSmall ?? UIImage(named: "selected_m_nohana")
 
             pickButton.setImage(droppedImage, for: UIControlState())
             pickButton.setImage(pickedImage, for: .selected)
