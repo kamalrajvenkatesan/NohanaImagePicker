@@ -30,7 +30,7 @@ class AssetCell: UICollectionViewCell {
             let droppedImage: UIImage? = nohanaImagePickerController.config.image.droppedSmall ?? UIImage(named: "select_m_nohana")
             let pickedImage: UIImage? = nohanaImagePickerController.config.image.pickedSmall ?? UIImage(named: "selected_m_nohana")
 
-            pickButton.setImage(droppedImage, for: UIControlState())
+            pickButton.setImage(droppedImage, for: UIControl.State())
             pickButton.setImage(pickedImage, for: .selected)
         }
     }
