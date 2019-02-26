@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'NohanaImagePicker'
   s.version          = '9.0.3'
   s.summary          = 'A multiple image picker for iOS app.'
-  s.homepage         = 'https://github.com/nohana/NohanaImagePicker'
+  s.homepage         = 'https://github.com/kamalrajvenkatesan/NohanaImagePicker'
   s.license          = { :type => 'Apache License v2', :file => 'LICENSE' }
   s.author           = { 'nohana' => 'development@nohana.co.jp' }
   s.source           = { :git => 'https://github.com/nohana/NohanaImagePicker.git', :tag => s.version.to_s }
